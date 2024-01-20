@@ -1,0 +1,120 @@
+{
+  "id": "10970271b8798f29014df3b92507f9c4122fd6",
+  "revision": "10970371b8798f29014df3b92507f9c4122fd6",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:135177-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "fromPatch": "producer_patch_model:126258-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "fromPort": "block_input_port_model:125914-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "toPatch": "template_patch_model:135175-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:135225-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "fromPatch": "template_patch_model:135175-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:129353-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:110733-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "subpatches": [
+          "consumer_patch_model:129353-71b8798f-2901-4df3-b925-07f9c4122fd6",
+          "producer_patch_model:126258-71b8798f-2901-4df3-b925-07f9c4122fd6",
+          "template_patch_model:135175-71b8798f-2901-4df3-b925-07f9c4122fd6"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "material0",
+        "identifier": "consumer_patch_model:129353-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "object": "defaultMaterial:115002-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          980,
+          116
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Block Root",
+        "identifier": "producer_patch_model:126258-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "object": "block_root_model:109782-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "position": [
+          524,
+          140
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "If Then Else",
+        "identifier": "template_patch_model:135175-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "position": [
+          692,
+          92
+        ],
+        "templateId": "builtin.IfThenElseOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "vec4",
+              "v": [
+                1,
+                0,
+                0.01568627450980392,
+                1
+              ]
+            }
+          },
+          {
+            "port": "3",
+            "value": {
+              "t": "vec4",
+              "v": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "variantInfo": "color"
+      }
+    ],
+    "ports": [
+      {
+        "modelName": "block_input_port_model",
+        "name": "Alive",
+        "identifier": "block_input_port_model:125914-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "portTag": "block_input_port_model:125914-71b8798f-2901-4df3-b925-07f9c4122fd6",
+        "portType": "bool"
+      }
+    ]
+  }
+}

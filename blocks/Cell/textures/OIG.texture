@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "OIG",
+  "identifier": "texture:127510-71b8798f-2901-4df3-b925-07f9c4122fd6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "55f750a70f3773104641649bf9755824",
+  "assetLocator": "textures/OIG.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 486,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 486,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "55f750a70f3773104641649bf9755824",
+      "colorCount": 33389,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 8.200469668387177,
+      "pixelsHigh": 486,
+      "pixelsWide": 486
+    }
+  ]
+}
